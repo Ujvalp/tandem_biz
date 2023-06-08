@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero_bg {
+  background-image: url("./assets/images/hero_bg1.svg");
+}
+
+.hero_bg2 {
+  background-image: url("./assets/images/hero_bg2.png");
+}
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #4c3cce;
+}
